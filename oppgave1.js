@@ -7,7 +7,7 @@ function buttonClick() {
   }
   console.log(states_dictionary[current])
   document.getElementById('description').innerHTML = states_dictionary[current][0];
-  document.getElementById('picture').src = states_dictionary[current][1]
+  document.getElementById('center-pic').src = states_dictionary[current][1]
 
 };
 

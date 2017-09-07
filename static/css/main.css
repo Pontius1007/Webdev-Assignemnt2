@@ -58,6 +58,10 @@ h1 {
     height: 80vh;
 }
 
+.content.column {
+	flex-direction: column;
+}
+
 
 #left-pic, #right-pic {
 	max-width: 250px;

@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Bread4Life</title>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" type="text/css" href="oppgave1.css"/>
-  <script src="oppgave1.js"></script>
-  <meta charset="utf-8">
+    <head>
+      <title>Bread4Life</title>
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+      <link rel="stylesheet" type="text/css" href="static/css/main.css"/>
+      <script src="oppgave1.js"></script>
+      <meta charset="utf-8">
+    </head>
 
-</head>
+    <body class="site">
+      <header class="head">
+        <h1>We love bread</h1>
+        <p class="sub-header">Welcome to the bread
+          subsection.</p>
+        </header>
 
-<body class="flexbox-container">
+        <div class="main-box">
+          <div class="content column">
+            <div class="pic">
+              <img id="center-pic"
+              src="http://img.thrfun.com/img/012/186/freezing_bread_l.jpg"
+              alt="illustration"/>
+            </div>
+            <p id="description">hejhej</p>
+          </div>
 
-  <div class="flexbox-item header">
-    <h1>We love bread</h1>
-  </div>
+          <div class="clickable">
+            <button class="button" type="button" onclick="buttonClick()">GO!</button>
+          </div>
+        </div>
 
-  <div class="flexbox-item picture_div">
-    <img id="picture"
-    src="http://img.thrfun.com/img/012/186/freezing_bread_l.jpg"
-    alt="illustration"/>
-  </div>
+        <footer class="footer">
+          <p>The making of this production was sponsored by the PC Master Race and <a class="link" href="https://media.giphy.com/media/10kABVanhwykJW/giphy.gif" target="_blank">our lord Gaben</a></p>
+        </footer>
 
-  <div class="flexbox-item textbox">
-    <div id="description">Welcome to the bread
-      appreciation site.
-    </div>
-  </div>
-
-
-  <div class="flexbox-item btn_1">
-    <button class="button" type="button" onclick="buttonClick()">GO!</button>
-  </div>
-
-</body>
-
+      </body>
 </html>
