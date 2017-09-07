@@ -1,0 +1,201 @@
+@import "https://fonts.googleapis.com/css?family=Hammersmith+One";
+
+
+.site {
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+	background-color: #FEB62C;
+    margin: 0;
+}
+
+h1 {
+	display: inline;
+	font-family: 'Hammersmith One', sans-serif;
+	color: white;
+}
+
+.subtext {
+	text-decoration: italic;
+	color: white;
+}
+.head {
+	max-height: 100px;
+	text-align: center;
+	border-bottom: solid 2px;
+	background-color: #1E1E1E;
+}
+
+#PC-text {
+	color: #FFD205;
+}
+
+.sub-header {
+	margin-top: -7px;
+	display: block;
+	color: white;
+	font-style: italic;
+	margin-bottom: 0;
+
+}
+
+
+.main-box {
+	flex: 1;
+}
+
+.content {
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+    width: auto;
+    height: 80vh;
+}
+
+
+#left-pic, #right-pic {
+	max-width: 250px;
+	max-height: 250px;
+	height: auto;
+	width: auto;
+	border: solid 3px;
+}
+
+#center-pic {
+	max-width: 500px;
+	max-height: 900px;
+	min-width: 300px;
+	min-height: 70vh;
+	height: auto;
+	width: auto;
+	border: solid 3px;
+}
+
+.pic {
+	margin-right: auto;
+    margin-left: auto;
+}
+
+.clickable {
+	text-align: center;
+	align-items: center;
+
+}
+
+.footer {
+	text-align: center;
+	border-top: solid 2px;
+	background-color: #1E1E1E;
+}
+
+.rotate335 {
+    -webkit-transform: rotate(335deg);
+    -moz-transform: rotate(335deg);
+    -o-transform: rotate(335deg);
+    -ms-transform: rotate(335deg);
+    transform: rotate(335deg);
+}
+
+
+.rotate30 {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+a {
+	color: #FFD205;
+}
+
+p {
+	color: white;
+}
+
+.button {
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #FFD205;
+	background-color: black;
+	border: solid 1px #1E1E1E;
+	border-radius: 2px;
+	box-shadow: 0 2px #1E1E1E;
+}
+
+.button:active {
+	background-color: white;
+	box-shadow: 0 2px #1E1E1E;
+}
+
+/* Animation classes after button press */
+
+.rotateleft {
+	-webkit-animation:spin 0.5s linear infinite;
+    -moz-animation:spin 0.5s linear infinite;
+    animation:spin 0.5s linear infinite;
+}
+
+.rotateright {
+	-webkit-animation:spin 0.5s linear infinite;
+    -moz-animation:spin 0.5s linear infinite;
+    animation:spin 0.5s linear infinite reverse;
+}
+
+
+
+.site-rainbow {
+	background: linear-gradient(-45deg, #75ff05, #f6ff05, #ff0505, #ff05ee, #0543ff, #05ffee, #11ff05);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 0.1s ease infinite;
+	-moz-animation: Gradient 0.1s ease infinite;
+	animation: Gradient 0.1s ease infinite;
+}
+
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
