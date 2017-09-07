@@ -10,10 +10,10 @@ function main() {
                   , "https://media.giphy.com/media/10rW4Xw9eO0RmU/giphy.gif" ]
     var i = -1;
 
-    //Add method for preloading GIFs? 
+    //Add method for preloading GIFs?
 
     var change_var = function changeGif(){
-      var gif = document.getElementById('cat_gif');
+      var gif = document.getElementById('center-gif');
       i++;
       gif.src = gif_list[(i) % (gif_list.length)];
     }
