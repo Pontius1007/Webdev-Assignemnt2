@@ -54,16 +54,9 @@ h1 {
     height: 80vh;
 }
 
-<<<<<<< HEAD
 .content.column {
 	flex-direction: column;
 }
-
-=======
-.content.column{
-	flex-direction: column;
-}
->>>>>>> integrateAfe
 
 #left-pic, #right-pic {
 	max-width: 250px;
