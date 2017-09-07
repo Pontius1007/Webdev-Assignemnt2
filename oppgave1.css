@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    background-color: HoneyDew;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    min-width: 500px;
+    width: auto !important;
+    width: 500px;
+}
+
+h1 {
+  color: navy;
+  font-size: 300%;
+  text-align: center;
+  padding-top: 0;
+  white-space: nowrap;
+  min-width: 100%;
+}
+
+img {
+  margin-top: 10px;
+  min-width: 500px;
+  min-height: 500px;
+  max-width: 700px;
+  max-height: 500px;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
+.flexbox-container {
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+.header {
+  flex: 1 100% auto;
+  min-height: 150px;
+  max-height: 150px;
+  background-color: lightgrey;
+  border-bottom: groove;
+  justify-content: center;
+  margin: -10px -10px 0px -10px;
+  font-size: 150%;
+  width: 100%;
+}
+
+.picture_div {
+  flex: 1 0 auto;
+
+}
+
+.textbox {
+  flex: 1 0 auto;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.btn_1 {
+  flex: 1;
+  position: static;
+  align-self: flex-end center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.button {
+  font-size: 200%;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-color:white;
+  border: 5px solid pink;
+  box-shadow: 0 5px #999;
+
+}
+
+
+.button:hover {
+  background-color: pink;
+  color: white;
+}
+
+.button:active {
+  background-color: pink;
+  color: white;
+  box-shadow: 0 1px #666;
+}
+
+.button:focus {
+  outline: none;
+}
+
+#description {
+  font-size: 250%;
+  text-align: center;
+}
